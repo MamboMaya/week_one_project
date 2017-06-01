@@ -1,0 +1,118 @@
+/*Background:                     #F2F1E8
+Text:                             #131511
+Inline Link:                      #968772
+Inline Link (Hover):              #967343
+Navigation Background:            #FFFFFF
+Navigation Text:                  #2B2F26
+Navigation Text (Hover):          #CD5D67
+Navigation Text (Active)          #968772
+Button Background:                #968772
+Button Background (Hover):        #967343
+Button Text:                      #F2F1E8
+Button Text (Hover):              #FFFFFF
+Input Border Bottom:              #968772
+Input Border Bottom (Focus):      #967343*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F2F1E8;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+  z-index: 4;
+  margin-top: -70px;
+}
+header{
+  text-align: center;
+  margin-top: 70px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+li a {
+  margin: 15px;
+  color: #2B2F26;
+  font-size: smaller;
+}
+footer {
+  background-color: #4c654c;
+  color: white;
+  padding: 5px;
+}
+div p {
+  background-color: #4c654c;
+  color: #131511;
+  margin: 10px;
+  padding: 5px;
+  transform: translateY(-70px);
+  float: left;
+}
+h1 {
+    font-size: -webkit-xxx-large;
+    font-family: Lara;
+    font-weight: 100;
+}
+h4 {
+    font-family: Lara;
+    font-size: x-large;
+    font-weight: 100;
+}
+.image-box-1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-box-2 {
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+}
+.image-box-1 img {
+  padding: 10px;
+}
+.image-box-2 img {
+  padding: 10px;
+}
+#logo {
+  height: 30px;
+  float: left;
+  align-self: center;
+  transform: translateY(10px);
+}
+#pic1 {
+  height: 368px;
+  width: 732px;
+}
+#pic2 {
+  height: 368px;
+  weight: 235px;
+}
+#pic3 {
+  height: 368px;
+  width: 235px;
+}
+#pic4 {
+  height: 240px;
+  width: 235px;
+}
+#pic5 {
+  height: 240px;
+  width: 235px;
+}
+#pic6 {
+  height: 240px;
+  width: 485px;
+}
+#pic7 {
+  height: 240px;
+  width: 235px;
+}
