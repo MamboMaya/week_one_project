@@ -1,1 +1,3 @@
-#Week One Project\n-HTML\n-CSS
+#Week One Project
+
+Basic HTML/CSS website mockup practice for TIY 
